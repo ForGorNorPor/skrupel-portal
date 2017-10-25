@@ -73,7 +73,7 @@ header('Pragma: cache');
 
     <link rel="stylesheet" href="font/font.css" type="text/css" />
     <link rel="stylesheet" href="styles/<?php echo $_SESSION['layout']; ?>/css/style.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="styles/<?php echo $_SESSION['layout']; ?>/images/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
     <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
